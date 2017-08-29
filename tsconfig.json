@@ -1,0 +1,45 @@
+{
+    "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "paths": {
+      "ng2-dropdown-treeview": [
+        "index"
+      ]
+    },
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ],
+    "types": [
+      "jasmine",
+      "karma-fixture",
+      "node"
+    ]
+  },
+    "files": [
+        "index.ts"
+    ],
+    "exclude": [
+        "demo",
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "angularCompilerOptions": {
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true
+    }
+}
